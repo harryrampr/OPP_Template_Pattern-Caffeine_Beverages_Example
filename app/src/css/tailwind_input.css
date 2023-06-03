@@ -30,8 +30,19 @@
     p {
         @apply text-base;
         @apply mt-1;
-        @apply ml-2;
+        @apply italic;
+    }
+
+    .recipe {
+        @apply w-[15.5rem];
+        @apply bg-slate-200;
+        @apply mb-[2rem];
+        @apply pt-4;
+        @apply pr-0;
+        @apply pb-5;
+        @apply pl-5;
     }
 }
+
 @tailwind components;
 @tailwind utilities;
